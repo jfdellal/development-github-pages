@@ -64,6 +64,129 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
+          <div id="map" style="width: 100%; height: 400px;"></div>
+            <!-- Ajout dans style[code copier snazzyMap] -->
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+            <script type="text/javascript">
+              var myLatlng = new google.maps.LatLng(49.0522840,2.0130730);
+
+            var myOptions = {
+            zoom: 14,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{
+        "featureType": "landscape",
+        "stylers": [
+            {
+                "hue": "#F600FF"
+            },
+            {
+                "saturation": 0
+            },
+            {
+                "lightness": 0
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "stylers": [
+            {
+                "hue": "#DE00FF"
+            },
+            {
+                "saturation": -4.6000000000000085
+            },
+            {
+                "lightness": -1.4210854715202004e-14
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "stylers": [
+            {
+                "hue": "#FF009A"
+            },
+            {
+                "saturation": 0
+            },
+            {
+                "lightness": 0
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "stylers": [
+            {
+                "hue": "#FF0098"
+            },
+            {
+                "saturation": 0
+            },
+            {
+                "lightness": 0
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "stylers": [
+            {
+                "hue": "#EC00FF"
+            },
+            {
+                "saturation": 72.4
+            },
+            {
+                "lightness": 0
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "stylers": [
+            {
+                "hue": "#7200FF"
+            },
+            {
+                "saturation": 49
+            },
+            {
+                "lightness": 0
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    }
+]
+          };
+
+          var map = new google.maps.Map(document.getElementById('map'), myOptions);
+          var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title:"You are here!"
+        });
+      </script>
         
       </div>
       <div class="col-sm-6">
