@@ -34,7 +34,7 @@ body {
 /* Lead with big image */
 
 .wrapper {
-  background-image: url('../images/background/plageBleue.jpeg');
+  background-image: url('../images/background/plageBleue2.jpeg');
   height: 650px;
   background-size: cover;
   padding-top: 150px;
@@ -110,4 +110,17 @@ body {
 .navbar-transparent .navbar-nav > .open > a:focus {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1 titreMooc
+{
+  position: center;
+}
+
+.paraMooc
+{
+ position: relative;
+ left: 50;
+ float: left;
+ color: silver;
 }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Creation de site web</title>
+    <title>IceMe - Dégustez une glace, maintenant !</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
@@ -30,7 +30,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">
-            Développement Web
+            Accueil Développement Web
           </a>
         </div>
 
@@ -41,9 +41,11 @@
             <li><a href="#">Link</a></li>
           </ul> -->
           <ul class="nav navbar-nav navbar-right">
+            
             <li>
               <a href="contact.html">Contact</a>
             </li>
+
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suivez-nous ! <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -55,57 +57,25 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
-
-      </div>
+    <!-- Div vide Juste pour la place -->
+    <div class="vertical-spacer"></div> 
+  <!-- Debut de l'emplacement carte-Google -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1 class="titreMooc">Les MOOC</h1>
+        
+        <p class="paraMooc">(Massive Open Online Course) Cours de formation en ligne gratuits accessibles au grand public. 
+            Le MOOC gère la livraison en ligne du didacticiel créé par les écoles 
+        et organisations participantes. Bien que divers MOOC aient été lancés à la fin des années 2000, les activités du MOOC ont commencé à augmenter en 2011 lorsque l'Université Stanford a offert trois cours et plusieurs autres en 2012. En 2012, le MIT et Harvard ont lancé leur MOOC sous la bannière edX; Coursera a commencé à offrir des cours dans plusieurs universités, et Udacity a commencé à offrir des cours parrainés par des universités et des fournisseurs de haute technologie. En quelques années, des centaines de milliers de personnes ont profité de l'éducation, et la certification est disponible, dans certains cas moyennant des frais pour l'université qui les parraine.</p>
+        
          
-    <div class="vertical-spacer"></div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div id="map" style="width: 100%; height: 400px;"></div>
-
- <script async defer
-    src="http://maps.googleapis.com/maps/api/js?key=   AIzaSyD6PXjMpbgp16ZegpSvzL3gIFgqtdbB4qk&callback=initMap">
-    </script>
-
-
-<script type="text/javascript">
-  var myLatlng = new google.maps.LatLng(49.0522840,2.0130730);
-
-  var myOptions = {
-      zoom: 14,
-      center: myLatlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      styles: []
-  };
-
-  var map = new google.maps.Map(document.getElementById('map'), myOptions);
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: "You are here!"
-  });
-</script>
-
-
-          
-        </div>
-        <div class="col-sm-6">
-        <h1>Contact</h1>
-        <p>
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
-
-        25, Allée des Météores de paille
-        <p>95800 CERGY</p>
-        </p>
-         <p><i class="fa fa-mobile" aria-hidden="true"></i>
-          06 25 06 23 55</p>
       </div>
     </div>
-      </div>
-    </div>
+    
+  </div>
+
+  <!-- FIN de l'emplacement carte---------------------->
 
 
     <div class="vertical-spacer"></div>
@@ -139,7 +109,7 @@
           </div>
           <div class="col-lg-9">
             <div class="text-center">
-             Site crée dans le cadre de la formation développement web
+              IceMe est une compagnie fictive créée dans le cadre de
               <a href="http://www.cetetejecode.fr">cetetejecode.fr</a>.
             </div>
           </div>
