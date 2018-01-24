@@ -128,9 +128,17 @@ body {
  left: 40%;
   
  color: grey;
- font-family: courier;
- font-size: 130%;
-  border: 1px solid powderblue;
+
+ color: grey;
+  font-size: 1.5em;
+  font-family: helvitica, Arial, cursive;
+  font-weight: bold;
+  text-align: center;
+  text-orientation: all;
+  margin: 30px; 
+  padding: 30px;
+
+  border: 1.5px solid powderblue;
   margin: 30px; 
   padding: 30px;
 
