@@ -131,8 +131,11 @@ body {
 
  color: grey;
   font-size: 1.5em;
-  font-family: helvitica, Arial, cursive;
-  font-weight: bold;
+  font-family: Headland One,Helvetica Neue,Arial,Helvetica,sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+   margin: 0;
+  
   text-align: center;
   text-orientation: all;
   margin: 30px; 
